@@ -3,8 +3,8 @@
 */
 Console.WriteLine("Введи 2 числа и мы тебе скажем какое из них больше");
 
-int max = 0;
-int min = 0;
+int MaxNumber = 0;
+int MinNumber = 0;
 
 Console.Write("Number1: ");
 int Number1 = Convert.ToInt32(Console.ReadLine());
@@ -14,15 +14,15 @@ int Number2 = Convert.ToInt32(Console.ReadLine());
 
 if(Number1 > Number2)
 {
-    max = Number1;
-    min = Number2;
+    MaxNumber = Number1;
+    MinNumber = Number2;
 }
 else
 {
-    max = Number2;
-    min = Number1;
+    MaxNumber = Number2;
+    MinNumber = Number1;
 }
-Console.WriteLine("max = " + max + " и " + "min = " + min);
+Console.WriteLine("Max = " + MaxNumber + " и " + "Min = " + MinNumber);
 
 
 /*
@@ -31,7 +31,7 @@ Console.WriteLine("max = " + max + " и " + "min = " + min);
 
 Console.WriteLine("Введи 3 числа и мы тебе скажем какое из них больше");
 
-int max = 0;
+int MaxNumber = 0;
 
 Console.Write("Input Number1: ");
 int Number1 = Convert.ToInt32(Console.ReadLine());
@@ -42,19 +42,19 @@ int Number2 = Convert.ToInt32(Console.ReadLine());
 Console.Write("Input Number3: ");
 int Number3 = Convert.ToInt32(Console.ReadLine());
 
-if(Number1 > max)
+if(Number1 > MaxNumber)
 
-    max = Number1;
+    MaxNumber = Number1;
 
-if(Number2 > max)
-    max = Number2;
+if(Number2 > MaxNumber)
+    MaxNumber = Number2;
     
-if(Number3 > max)
+if(Number3 > MaxNumber)
         
-    max = Number3;
+    MaxNumber = Number3;
         
 
-Console.WriteLine("max = " + max);
+Console.WriteLine("Max = " + MaxNumber);
 
 
 

@@ -60,3 +60,25 @@ while (current <= number)
 234522 / 10 % 100 
 31235 / 100 % 100 
 */
+Console.WriteLine("Введи 2 числа и мы тебе скажем какое из них больше");
+
+int MaxNumber = 0;
+int MinNumber = 0;
+
+Console.Write("Number1: ");
+int Number1 = Convert.ToInt32(Console.ReadLine());
+
+Console.Write("Number3: ");
+int Number2 = Convert.ToInt32(Console.ReadLine());
+
+if(Number1 > Number2)
+{
+    MaxNumber = Number1;
+    MinNumber = Number2;
+}
+else
+{
+    MaxNumber = Number2;
+    MinNumber = Number1;
+}
+Console.WriteLine("max = " + MaxNumber + " и " + "min = " + MinNumber);
