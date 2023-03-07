@@ -60,29 +60,3 @@ while (current <= number)
 234522 / 10 % 100 
 31235 / 100 % 100 
 */
-Console.WriteLine("Введи 3 числа и мы тебе скажем какое из них больше");
-
-int MaxNumber = 0;
-
-Console.Write("Input Number1: ");
-int Number1 = Convert.ToInt32(Console.ReadLine());
-
-Console.Write("Input Number2: ");
-int Number2 = Convert.ToInt32(Console.ReadLine());
-
-Console.Write("Input Number3: ");
-int Number3 = Convert.ToInt32(Console.ReadLine());
-
-if(Number1 > MaxNumber)
-
-    MaxNumber = Number1;
-
-if(Number2 > MaxNumber)
-    MaxNumber = Number2;
-    
-if(Number3 > MaxNumber)
-        
-    MaxNumber = Number3;
-        
-
-Console.WriteLine($"Max: {MaxNumber}");
