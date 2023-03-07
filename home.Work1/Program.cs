@@ -55,7 +55,7 @@ if(Number3 > MaxNumber)
     MaxNumber = Number3;
         
 
-Console.WriteLine("Max = " + MaxNumber);
+Console.WriteLine($"Max: {MaxNumber}");
 
 
 
