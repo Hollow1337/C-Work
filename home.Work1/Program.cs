@@ -22,7 +22,8 @@ else
     MaxNumber = Number2;
     MinNumber = Number1;
 }
-Console.WriteLine("Max = " + MaxNumber + " и " + "Min = " + MinNumber);
+Console.WriteLine($"Max: {MaxNumber}, Min: {MinNumber}");
+
 
 
 /*
